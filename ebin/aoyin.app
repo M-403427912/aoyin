@@ -1,0 +1,12 @@
+{application,aoyin,
+             [{description,"grpc protocl"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{aoyin_app,[]}},
+              {applications,[kernel,stdlib,grpcbox]},
+              {env,[]},
+              {modules,[aoyin_app,aoyin_mgr,aoyin_sup,ct_return_pb,
+                        g_health_svr,g_return_cli,g_return_svr,
+                        grpc_client_lib,grpc_return_bhvr,grpc_return_client]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
